@@ -24,7 +24,7 @@ const Printing = () => {
             <div key={prod.title} className="space-y-1 border overflow-y-auto shadow-md hover:shadow-xl"> 
              <Image src={prod.image} alt="dhehwagraphics" className="h-[50%] w-full"/> 
              <h1 className="text-slate-700 text-lg p-2 font-semibold">{prod.title}</h1>  
-             <h1 className="text-slate-700 font-thin p-2">{prod.description}</h1>
+             <h1 className="text-slate-700  p-2">{prod.description}</h1>
               
             </div>
           ))}
