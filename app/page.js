@@ -117,7 +117,7 @@ const Page = () => {
       <Image src={support} alt="dhehwagraphics" className="w-[100%] md:w-[50%]"/> 
       <div className="md:space-y-2 w-[90%] md:w-[50%]">
         <h1 className="text-lg lg:text-xl text-slate-700 font-semibold px-2">Support for brands big and small</h1> 
-        <h1 className="text-slate-700 font-thin lg:text-lg px-2 py-2 md:py-0">Whether you’re a startup or a household name, our business plans are designed for you. With all the help you need – like easy ordering for your team, special business discounts and pro design support.</h1>
+        <h1 className="text-slate-700  lg:text-lg px-2 py-2 md:py-0">Whether you’re a startup or a household name, our business plans are designed for you. With all the help you need – like easy ordering for your team, special business discounts and pro design support.</h1>
       </div>
      </div>  
 
@@ -128,7 +128,7 @@ const Page = () => {
             <div key={prod.title} className="space-y-1 border overflow-y-auto shadow-md hover:shadow-xl"> 
              <Image src={prod.image} alt="dhehwagraphics" className="h-[50%] w-full"/> 
              <h1 className="text-slate-700 text-lg p-2 font-semibold">{prod.title}</h1>  
-             <h1 className="text-slate-700 font-thin p-2">{prod.description}</h1>
+             <h1 className="text-slate-700  p-2">{prod.description}</h1>
               
             </div>
           ))}
