@@ -48,7 +48,7 @@ const Quote = () => {
          <h1 className="text-slate-700 text-xl font-bold">Dhehwa graphics</h1>
        
        <div>
-        <h1 className="text-center my-4  tex-lg">Hi! Let us know how we can help and we’ll respond shortly.  </h1>
+        <h1 className="text-center my-4  text-lg">Hi! Let us know how we can help and we’ll respond shortly.  </h1>
 
       <form  className="w-full my-4" ref={form} onSubmit={sendEmail}>
         <div className="mb-4">

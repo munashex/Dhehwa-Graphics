@@ -63,6 +63,7 @@ const Page = () => {
         <Slider {...settings}>
          {sliders.map((pic) => (
           <Image src={pic.image}  
+          key={pic.image}
           alt="dhewagraphics"
           className="h-64 object-cover lg:h-96"
           />

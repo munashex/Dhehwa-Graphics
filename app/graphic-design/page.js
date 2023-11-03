@@ -77,7 +77,7 @@ const Graphic = () => {
    <div className="grid grid-cols-1 w-[95%] md:w-[90%] mx-auto md:grid-cols-2 lg:grid-cols-3 gap-y-11 gap-x-9">
     {whatWeDo.map((phase) => (
         <div key={phase.description} className="flex flex-col  gap-y-3 items-center  w-[100%] md:w-[90%] mx-auto"> 
-         <Image src={phase.image} className="w-80"/> 
+         <Image src={phase.image} className="w-80" alt="dhehwagraphics"/> 
          <h1 className="text-lg  text-white text-center">{phase.description}</h1>
         </div>
     ))}
