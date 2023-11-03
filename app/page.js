@@ -22,7 +22,7 @@ const Page = () => {
   const settings = {
     dots: false, // Hides the dots
     arrows: false, // Hides the arrows
-    infinite: false,
+    infinite: true,
     speed: 500,
     slidesToShow: 1,
     slidesToScroll: 1,
