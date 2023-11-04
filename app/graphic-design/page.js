@@ -6,7 +6,7 @@ import { whatWeDo } from '../data/graphics'
 
 const Graphic = () => {
 
-    const videoSrc = 'https://res.cloudinary.com/ditls34gp/video/upload/v1698747256/lex2d6sqsjxblt9kctsy.mp4'
+    const videoSrc = 'https://res.cloudinary.com/ditls34gp/video/upload/v1699094628/jjkvptqpqpl0gput6szb.mp4'
 
     return ( 
         <div className="animate-fade-down animate-delay-300"> 
