@@ -6,7 +6,7 @@ import { whatWeDo } from '../data/graphics'
 
 const Graphic = () => {
 
-    const videoSrc = 'https://res.cloudinary.com/ditls34gp/video/upload/v1699094628/jjkvptqpqpl0gput6szb.mp4'
+    const videoUrl = 'https://res.cloudinary.com/ditls34gp/video/upload/v1699094628/jjkvptqpqpl0gput6szb.mp4'
 
     return ( 
         <div className="animate-fade-down animate-delay-300"> 
@@ -40,7 +40,7 @@ const Graphic = () => {
         loop
         playsInline // For mobile autoplay
         >
-    <source src={`${videoSrc}#video_quality=hd`} type="video/mp4" />
+    <source src={`${videoUrl}#video_quality=hd`} type="video/mp4" />
     Your browser does not support the video tag.
   </video> 
   </div>
